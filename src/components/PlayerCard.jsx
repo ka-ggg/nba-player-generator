@@ -4,18 +4,18 @@ import { ChevronDown } from 'lucide-react'
 
 /* ---- Constants ---- */
 const CATEGORIES = [
-  { name: 'Physical', icon: '💪', keys: ['speed','strength','vertical','stamina','hustle'] },
-  { name: 'Offense', icon: '🔥', keys: ['threePt','midRange','finish','dunk','ballHandling','passing','postScoring','freeThrow'] },
-  { name: 'Defense', icon: '🛡️', keys: ['perimeterD','interiorD','steal','block','defRebound'] },
-  { name: 'Athleticism', icon: '⚡', keys: ['lateralQuickness','acceleration','agility','offRebound'] }
+  { name: '身体素质', icon: '💪', keys: ['speed','strength','vertical','stamina','hustle'] },
+  { name: '进攻能力', icon: '🔥', keys: ['threePt','midRange','finish','dunk','ballHandling','passing','postScoring','freeThrow'] },
+  { name: '防守能力', icon: '🛡️', keys: ['perimeterD','interiorD','steal','block','defRebound'] },
+  { name: '运动能力', icon: '⚡', keys: ['lateralQuickness','acceleration','agility','offRebound'] }
 ]
 
 const ATTR_LABELS = {
-  speed:'Speed', strength:'Strength', vertical:'Vertical', stamina:'Stamina', hustle:'Hustle',
-  threePt:'3PT', midRange:'Mid-Range', finish:'Finish', dunk:'Dunk', ballHandling:'Ball Handle',
-  passing:'Passing', postScoring:'Post Score', freeThrow:'Free Throw',
-  perimeterD:'Perimeter D', interiorD:'Interior D', steal:'Steal', block:'Block', defRebound:'Def Rebound',
-  lateralQuickness:'Lat Quick', acceleration:'Accel', agility:'Agility', offRebound:'Off Rebound'
+  speed:'速度', strength:'力量', vertical:'弹跳', stamina:'体力', hustle:'积极性',
+  threePt:'三分', midRange:'中投', finish:'终结', dunk:'扣篮', ballHandling:'控球',
+  passing:'传球', postScoring:'背身', freeThrow:'罚球',
+  perimeterD:'外线防守', interiorD:'内线防守', steal:'抢断', block:'盖帽', defRebound:'防守篮板',
+  lateralQuickness:'横向敏捷', acceleration:'加速度', agility:'灵活性', offRebound:'进攻篮板'
 }
 
 const GRADE_COLORS = {
@@ -35,16 +35,17 @@ const GRADE_COLORS = {
 }
 
 const BADGE_TOOLTIPS = {
-  'Clutch Shooter': 'Shoots better in final moments',
-  'Dimer': 'Passes lead to higher shot %',
-  'Ankle Breaker': 'Crossovers cause defenders to stumble',
-  'Posterizer': 'Dunks over defenders',
-  'Rim Protector': 'Elite shot blocker',
-  'Floor General': 'Boosts teammates on court',
-  'Deadeye': 'Contested shots still hit',
-  'Pick Pocket': 'Steals from ball handlers',
-  'Limitless Range': 'Deep 3-point range',
-  'Chase Down Artist': 'Blocks from behind',
+  'Clutch Shooter': '关键时刻投篮更准',
+  'Dimer': '传球创造更高命中率',
+  'Ankle Breaker': '变向让防守者失去平衡',
+  'Posterizer': '隔人暴扣',
+  'Rim Protector': '精英级盖帽手',
+  'Floor General': '提升场上队友表现',
+  'Deadeye': '防守干扰下仍能命中',
+  'Pick Pocket': '从持球者手中抢断',
+  'Limitless Range': '超远三分射程',
+  'Chase Down Artist': '追身大帽',
+  'GOAT': '史上最伟大球员',
 }
 
 /* ---- Attribute bar color helper ---- */
@@ -182,7 +183,7 @@ export default function PlayerCard({ player, onAppear }) {
   const [visibleBars, setVisibleBars] = useState([])
   const [ringAnimate, setRingAnimate] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
-  const [expandedCat, setExpandedCat] = useState('Physical')
+  const [expandedCat, setExpandedCat] = useState('身体素质')
 
   const team = teams.find(t => t.abbr === player.team)
 

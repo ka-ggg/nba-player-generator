@@ -7,7 +7,7 @@ export default function Header({ soundEnabled, onToggleSound }) {
         <div className="flex items-center gap-3">
           <Trophy className="w-5 h-5 sm:w-6 sm:h-6 text-nba-gold" />
           <h1 className="font-display font-bold text-base sm:text-lg text-nba-gold tracking-wider">
-            NBA Player Generator
+            NBA 球员生成器
           </h1>
         </div>
         <div className="flex items-center gap-3">
@@ -15,8 +15,8 @@ export default function Header({ soundEnabled, onToggleSound }) {
           <button
             onClick={onToggleSound}
             className="text-gray-500 hover:text-nba-gold transition-colors p-1"
-            aria-label={soundEnabled ? 'Mute sound' : 'Enable sound'}
-            title={soundEnabled ? 'Sound ON' : 'Sound OFF'}
+            aria-label={soundEnabled ? '关闭音效' : '开启音效'}
+            title={soundEnabled ? '音效 开' : '音效 关'}
           >
             {soundEnabled ? (
               <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />

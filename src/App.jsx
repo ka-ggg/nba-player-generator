@@ -26,7 +26,7 @@ export default function App() {
         ) : (
           <div className="text-center mt-20 text-gray-600 font-display">
             <div className="text-7xl sm:text-8xl mb-6">🎰</div>
-            <p className="text-lg sm:text-xl">Select a team and press Generate</p>
+            <p className="text-lg sm:text-xl">选择一支球队并点击生成</p>
           </div>
         )}
       </main>

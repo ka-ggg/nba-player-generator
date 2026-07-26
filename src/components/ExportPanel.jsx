@@ -22,7 +22,7 @@ export default function ExportPanel({ player }) {
                    hover:text-white hover:border-nba-gold/50 hover:bg-nba-gold/5
                    active:scale-95 transition-all"
       >
-        <RotateCcw className="w-4 h-4" />Roll Again
+        <RotateCcw className="w-4 h-4" />再抽一次
       </button>
 
       <button
@@ -32,7 +32,7 @@ export default function ExportPanel({ player }) {
                    hover:bg-nba-gold-light active:scale-95 transition-all animate-pulse-glow animate-float"
       >
         {exported ? <Check className="w-4 h-4" /> : <Download className="w-4 h-4" />}
-        {exported ? 'Copied!' : 'Export JSON'}
+        {exported ? '已复制!' : '导出 JSON'}
       </button>
     </>
   )
@@ -44,7 +44,7 @@ export default function ExportPanel({ player }) {
         {buttons}
         {history.length > 1 && (
           <div className="flex items-center gap-2 ml-auto text-xs text-gray-500 font-display">
-            <span>History: {history.length}</span>
+            <span>历史: {history.length}</span>
           </div>
         )}
       </div>

@@ -86,8 +86,8 @@ export default function SlotMachine({ sound }) {
       {/* Team grid */}
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-xs text-gray-500 font-display uppercase tracking-wider">Select Team</span>
-          <span className="text-[10px] text-nba-gold/60 font-display ml-1">🏆 Current · ⭐ All-Time</span>
+          <span className="text-xs text-gray-500 font-display uppercase tracking-wider">选择球队</span>
+          <span className="text-[10px] text-nba-gold/60 font-display ml-1">🏆 现役 · ⭐ 传奇</span>
           <div className="h-px flex-1 bg-nba-border/30" />
         </div>
         {/* Mobile: 3 cols | Desktop: 10 cols */}
@@ -117,7 +117,7 @@ export default function SlotMachine({ sound }) {
                   }
                   ${isSpinning ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer'}
                 `}
-                aria-label={`Select ${team.name}`}
+                aria-label={`选择 ${team.name}`}
               >
                 {isAllTime && (
                   <span className="absolute top-0.5 right-0.5 text-[6px] font-display font-bold text-nba-bg bg-nba-gold rounded-sm px-1 py-0.5 tracking-[0.05em] leading-none">
@@ -193,12 +193,12 @@ export default function SlotMachine({ sound }) {
                 : 'bg-nba-gold text-nba-bg hover:bg-nba-gold-light active:scale-95 animate-pulse-glow animate-float'
               }
             `}
-            aria-label={isSpinning ? 'Generating player' : 'Generate player'}
+            aria-label={isSpinning ? '生成中' : '生成球员'}
           >
             {isSpinning ? (
-              <><StopCircle className="w-4 h-4" />Generating...</>
+              <><StopCircle className="w-4 h-4" />生成中...</>
             ) : (
-              <><Play className="w-4 h-4" />Generate Player</>
+              <><Play className="w-4 h-4" />生成球员</>
             )}
           </button>
         </div>
@@ -210,7 +210,7 @@ export default function SlotMachine({ sound }) {
         return (
           <p className="text-center text-xs text-gray-500 mt-2 font-display">
             {t.name} · <span className="text-nba-gold/70">
-              {t.era === 'all-time' ? '⭐ All-Time' : '🏆 Current'}
+              {t.era === 'all-time' ? '⭐ 传奇' : '🏆 现役'}
             </span>
           </p>
         )

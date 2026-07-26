@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =============================================
+   Layer: Base
+   ============================================= */
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: #0a0a0f;
+    color: #e0e0e0;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #0a0a0f; }
+  ::-webkit-scrollbar-thumb { background: #2a2a3a; border-radius: 3px; }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* =============================================
+   Layer: Components
+   ============================================= */
+@layer components {
+  /* --- Attribute Bar --- */
+  .attr-bar-track {
+    background: linear-gradient(90deg, #1a1a2e 0%, #2a2a3e 100%);
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+  .attr-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  /* Color scale: red→orange→yellow→green */
+  .attr-bar-fill--low    { background: linear-gradient(90deg, #ef4444, #dc2626); box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+  .attr-bar-fill--mid    { background: linear-gradient(90deg, #f59e0b, #d97706); box-shadow: 0 0 6px rgba(245,158,11,0.4); }
+  .attr-bar-fill--good   { background: linear-gradient(90deg, #eab308, #ca8a04); box-shadow: 0 0 6px rgba(234,179,8,0.4); }
+  .attr-bar-fill--elite  { background: linear-gradient(90deg, #22c55e, #16a34a); box-shadow: 0 0 6px rgba(34,197,94,0.4); }
+
+  /* --- Card Effects --- */
+  .card-glow {
+    box-shadow: 0 4px 24px rgba(230,162,60,0.08),
+                inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  /* Metallic border via pseudo-element */
+  .card-metallic {
+    position: relative;
+  }
+  .card-metallic::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg,
+      rgba(230,162,60,0.6) 0%,
+      rgba(255,255,255,0.2) 30%,
+      rgba(230,162,60,0.6) 50%,
+      rgba(255,255,255,0.15) 70%,
+      rgba(230,162,60,0.5) 100%
+    );
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+    pointer-events: none;
+    z-index: 1;
+  }
+  /* Holographic shimmer overlay */
+  .card-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .card-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(105deg,
+      transparent 40%,
+      rgba(255,255,255,0.04) 45%,
+      rgba(255,255,255,0.08) 50%,
+      rgba(255,255,255,0.04) 55%,
+      transparent 60%
+    );
+    animation: shimmer 4s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 2;
+  }
+  /* Card corner accents */
+  .card-corners::before,
+  .card-corners::after {
+    content: '';
+    position: absolute;
+    width: 12px; height: 12px;
+    border-color: rgba(230,162,60,0.4);
+    border-style: solid;
+    pointer-events: none;
+    z-index: 2;
+  }
+  .card-corners::before {
+    top: 6px; left: 6px;
+    border-width: 1px 0 0 1px;
+  }
+  .card-corners::after {
+    bottom: 6px; right: 6px;
+    border-width: 0 1px 1px 0;
+  }
+
+  /* --- Background Grid + Court --- */
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .bg-court {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'%3E%3Cpath d='M200 480 L200 20' stroke='rgba(255,255,255,0.03)' stroke-width='1' fill='none'/%3E%3Ccircle cx='200' cy='460' r='60' stroke='rgba(255,255,255,0.03)' stroke-width='1' fill='none'/%3E%3Cpath d='M80 460 A180 180 0 0 1 320 460' stroke='rgba(255,255,255,0.025)' stroke-width='1' fill='none'/%3E%3Cpath d='M50 460 A230 230 0 0 1 350 460' stroke='rgba(255,255,255,0.02)' stroke-width='1' fill='none'/%3E%3Cline x1='200' y1='460' x2='200' y2='460' stroke='rgba(255,255,255,0.05)' stroke-width='3'/%3E%3C/svg%3E");
+    background-size: 40px 40px, 40px 40px, 400px 500px;
+    background-position: 0 0, 0 0, center bottom;
+    background-repeat: repeat, repeat, repeat;
+    animation: courtDrift 20s linear infinite;
+  }
+
+  /* --- Hexagon Badge --- */
+  .badge-hex {
+    clip-path: polygon(25% 6%, 75% 6%, 98% 50%, 75% 94%, 25% 94%, 2% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 40px;
+    background: rgba(230,162,60,0.1);
+    border: 1px solid rgba(230,162,60,0.25);
+    transition: all 0.2s ease;
+  }
+  .badge-hex:hover {
+    background: rgba(230,162,60,0.2);
+    border-color: #e6a23c;
+    box-shadow: 0 0 12px rgba(230,162,60,0.3);
+    transform: rotate(15deg) scale(1.15);
+  }
+
+  /* --- OVR Ring --- */
+  .ovr-ring {
+    position: relative;
+    width: 80px; height: 80px;
+  }
+  .ovr-ring svg {
+    transform: rotate(-90deg);
+    width: 100%; height: 100%;
+  }
+  .ovr-ring .ring-bg {
+    fill: none;
+    stroke: rgba(30,30,46,0.6);
+    stroke-width: 6;
+  }
+  .ovr-ring .ring-fill {
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.8s cubic-bezier(0.34,1.56,0.64,1);
+  }
+  .ovr-ring .ring-value {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* --- Reel Viewport --- */
+  .reel-viewport {
+    position: relative;
+    overflow: hidden;
+  }
+  .reel-viewport::before,
+  .reel-viewport::after {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    height: 40%;
+    pointer-events: none;
+    z-index: 5;
+  }
+  .reel-viewport::before {
+    top: 0;
+    background: linear-gradient(to bottom, #0a0a0f, transparent);
+  }
+  .reel-viewport::after {
+    bottom: 0;
+    background: linear-gradient(to top, #0a0a0f, transparent);
+  }
+  .reel-perspective {
+    perspective: 400px;
+  }
+  .reel-roller {
+    transform-style: preserve-3d;
+    transition: transform 0.15s ease-out;
+  }
+
+  /* --- Legend Grid Shine --- */
+  .legend-shine-bg {
+    background-size: 200% 200%;
+    animation: legendShine 3s linear infinite;
+  }
+}
+
+/* =============================================
+   Layer: Utilities
+   ============================================= */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "atl-current",
+    "abbr": "ATL",
+    "name": "Atlanta Hawks",
+    "era": "current",
+    "color": "#C8102E",
+    "secondaryColor": "#FDB927",
+    "logo": "🏀"
+  },
+  {
+    "id": "atl-alltime",
+    "abbr": "ATL",
+    "name": "Atlanta Hawks All-Time",
+    "era": "all-time",
+    "color": "#C8102E",
+    "secondaryColor": "#FDB927",
+    "logo": "⭐"
+  },
+  {
+    "id": "bos-current",
+    "abbr": "BOS",
+    "name": "Boston Celtics",
+    "era": "current",
+    "color": "#007A33",
+    "secondaryColor": "#BA9653",
+    "logo": "🏀"
+  },
+  {
+    "id": "bos-alltime",
+    "abbr": "BOS",
+    "name": "Boston Celtics All-Time",
+    "era": "all-time",
+    "color": "#007A33",
+    "secondaryColor": "#BA9653",
+    "logo": "⭐"
+  },
+  {
+    "id": "bkn-current",
+    "abbr": "BKN",
+    "name": "Brooklyn Nets",
+    "era": "current",
+    "color": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "logo": "🏀"
+  },
+  {
+    "id": "bkn-alltime",
+    "abbr": "BKN",
+    "name": "Brooklyn Nets All-Time",
+    "era": "all-time",
+    "color": "#000000",
+    "secondaryColor": "#FFFFFF",
+    "logo": "⭐"
+  },
+  {
+    "id": "cha-current",
+    "abbr": "CHA",
+    "name": "Charlotte Hornets",
+    "era": "current",
+    "color": "#1D1160",
+    "secondaryColor": "#00788C",
+    "logo": "🏀"
+  },
+  {
+    "id": "cha-alltime",
+    "abbr": "CHA",
+    "name": "Charlotte Hornets All-Time",
+    "era": "all-time",
+    "color": "#1D1160",
+    "secondaryColor": "#00788C",
+    "logo": "⭐"
+  },
+  {
+    "id": "chi-current",
+    "abbr": "CHI",
+    "name": "Chicago Bulls",
+    "era": "current",
+    "color": "#CE1141",
+    "secondaryColor": "#000000",
+    "logo": "🏀"
+  },
+  {
+    "id": "chi-alltime",
+    "abbr": "CHI",
+    "name": "Chicago Bulls All-Time",
+    "era": "all-time",
+    "color": "#CE1141",
+    "secondaryColor": "#000000",
+    "logo": "⭐"
+  },
+  {
+    "id": "cle-current",
+    "abbr": "CLE",
+    "name": "Cleveland Cavaliers",
+    "era": "current",
+    "color": "#860038",
+    "secondaryColor": "#FDBB30",
+    "logo": "🏀"
+  },
+  {
+    "id": "cle-alltime",
+    "abbr": "CLE",
+    "name": "Cleveland Cavaliers All-Time",
+    "era": "all-time",
+    "color": "#860038",
+    "secondaryColor": "#FDBB30",
+    "logo": "⭐"
+  },
+  {
+    "id": "dal-current",
+    "abbr": "DAL",
+    "name": "Dallas Mavericks",
+    "era": "current",
+    "color": "#00538C",
+    "secondaryColor": "#002B5E",
+    "logo": "🏀"
+  },
+  {
+    "id": "dal-alltime",
+    "abbr": "DAL",
+    "name": "Dallas Mavericks All-Time",
+    "era": "all-time",
+    "color": "#00538C",
+    "secondaryColor": "#002B5E",
+    "logo": "⭐"
+  },
+  {
+    "id": "den-current",
+    "abbr": "DEN",
+    "name": "Denver Nuggets",
+    "era": "current",
+    "color": "#0E2240",
+    "secondaryColor": "#FEC524",
+    "logo": "🏀"
+  },
+  {
+    "id": "den-alltime",
+    "abbr": "DEN",
+    "name": "Denver Nuggets All-Time",
+    "era": "all-time",
+    "color": "#0E2240",
+    "secondaryColor": "#FEC524",
+    "logo": "⭐"
+  },
+  {
+    "id": "det-current",
+    "abbr": "DET",
+    "name": "Detroit Pistons",
+    "era": "current",
+    "color": "#C8102E",
+    "secondaryColor": "#006BB6",
+    "logo": "🏀"
+  },
+  {
+    "id": "det-alltime",
+    "abbr": "DET",
+    "name": "Detroit Pistons All-Time",
+    "era": "all-time",
+    "color": "#C8102E",
+    "secondaryColor": "#006BB6",
+    "logo": "⭐"
+  },
+  {
+    "id": "gsw-current",
+    "abbr": "GSW",
+    "name": "Golden State Warriors",
+    "era": "current",
+    "color": "#1D428A",
+    "secondaryColor": "#FFC72C",
+    "logo": "🏀"
+  },
+  {
+    "id": "gsw-alltime",
+    "abbr": "GSW",
+    "name": "Golden State Warriors All-Time",
+    "era": "all-time",
+    "color": "#1D428A",
+    "secondaryColor": "#FFC72C",
+    "logo": "⭐"
+  },
+  {
+    "id": "hou-current",
+    "abbr": "HOU",
+    "name": "Houston Rockets",
+    "era": "current",
+    "color": "#CE1141",
+    "secondaryColor": "#C4CED4",
+    "logo": "🏀"
+  },
+  {
+    "id": "hou-alltime",
+    "abbr": "HOU",
+    "name": "Houston Rockets All-Time",
+    "era": "all-time",
+    "color": "#CE1141",
+    "secondaryColor": "#C4CED4",
+    "logo": "⭐"
+  },
+  {
+    "id": "ind-current",
+    "abbr": "IND",
+    "name": "Indiana Pacers",
+    "era": "current",
+    "color": "#002D62",
+    "secondaryColor": "#FDBB30",
+    "logo": "🏀"
+  },
+  {
+    "id": "ind-alltime",
+    "abbr": "IND",
+    "name": "Indiana Pacers All-Time",
+    "era": "all-time",
+    "color": "#002D62",
+    "secondaryColor": "#FDBB30",
+    "logo": "⭐"
+  },
+  {
+    "id": "lac-current",
+    "abbr": "LAC",
+    "name": "LA Clippers",
+    "era": "current",
+    "color": "#C8102E",
+    "secondaryColor": "#1D428A",
+    "logo": "🏀"
+  },
+  {
+    "id": "lac-alltime",
+    "abbr": "LAC",
+    "name": "LA Clippers All-Time",
+    "era": "all-time",
+    "color": "#C8102E",
+    "secondaryColor": "#1D428A",
+    "logo": "⭐"
+  },
+  {
+    "id": "lal-current",
+    "abbr": "LAL",
+    "name": "Los Angeles Lakers",
+    "era": "current",
+    "color": "#552583",
+    "secondaryColor": "#FDB927",
+    "logo": "🏀"
+  },
+  {
+    "id": "lal-alltime",
+    "abbr": "LAL",
+    "name": "Los Angeles Lakers All-Time",
+    "era": "all-time",
+    "color": "#552583",
+    "secondaryColor": "#FDB927",
+    "logo": "⭐"
+  },
+  {
+    "id": "mem-current",
+    "abbr": "MEM",
+    "name": "Memphis Grizzlies",
+    "era": "current",
+    "color": "#5D76A9",
+    "secondaryColor": "#12173F",
+    "logo": "🏀"
+  },
+  {
+    "id": "mem-alltime",
+    "abbr": "MEM",
+    "name": "Memphis Grizzlies All-Time",
+    "era": "all-time",
+    "color": "#5D76A9",
+    "secondaryColor": "#12173F",
+    "logo": "⭐"
+  },
+  {
+    "id": "mia-current",
+    "abbr": "MIA",
+    "name": "Miami Heat",
+    "era": "current",
+    "color": "#98002E",
+    "secondaryColor": "#F9A01B",
+    "logo": "🏀"
+  },
+  {
+    "id": "mia-alltime",
+    "abbr": "MIA",
+    "name": "Miami Heat All-Time",
+    "era": "all-time",
+    "color": "#98002E",
+    "secondaryColor": "#F9A01B",
+    "logo": "⭐"
+  },
+  {
+    "id": "mil-current",
+    "abbr": "MIL",
+    "name": "Milwaukee Bucks",
+    "era": "current",
+    "color": "#00471B",
+    "secondaryColor": "#EEE1C6",
+    "logo": "🏀"
+  },
+  {
+    "id": "mil-alltime",
+    "abbr": "MIL",
+    "name": "Milwaukee Bucks All-Time",
+    "era": "all-time",
+    "color": "#00471B",
+    "secondaryColor": "#EEE1C6",
+    "logo": "⭐"
+  },
+  {
+    "id": "min-current",
+    "abbr": "MIN",
+    "name": "Minnesota Timberwolves",
+    "era": "current",
+    "color": "#0C2340",
+    "secondaryColor": "#78BE20",
+    "logo": "🏀"
+  },
+  {
+    "id": "min-alltime",
+    "abbr": "MIN",
+    "name": "Minnesota Timberwolves All-Time",
+    "era": "all-time",
+    "color": "#0C2340",
+    "secondaryColor": "#78BE20",
+    "logo": "⭐"
+  },
+  {
+    "id": "nop-current",
+    "abbr": "NOP",
+    "name": "New Orleans Pelicans",
+    "era": "current",
+    "color": "#0C2340",
+    "secondaryColor": "#85714D",
+    "logo": "🏀"
+  },
+  {
+    "id": "nop-alltime",
+    "abbr": "NOP",
+    "name": "New Orleans Pelicans All-Time",
+    "era": "all-time",
+    "color": "#0C2340",
+    "secondaryColor": "#85714D",
+    "logo": "⭐"
+  },
+  {
+    "id": "nyk-current",
+    "abbr": "NYK",
+    "name": "New York Knicks",
+    "era": "current",
+    "color": "#F58426",
+    "secondaryColor": "#006BB6",
+    "logo": "🏀"
+  },
+  {
+    "id": "nyk-alltime",
+    "abbr": "NYK",
+    "name": "New York Knicks All-Time",
+    "era": "all-time",
+    "color": "#F58426",
+    "secondaryColor": "#006BB6",
+    "logo": "⭐"
+  },
+  {
+    "id": "okc-current",
+    "abbr": "OKC",
+    "name": "Oklahoma City Thunder",
+    "era": "current",
+    "color": "#007AC1",
+    "secondaryColor": "#EF3B24",
+    "logo": "🏀"
+  },
+  {
+    "id": "okc-alltime",
+    "abbr": "OKC",
+    "name": "Oklahoma City Thunder All-Time",
+    "era": "all-time",
+    "color": "#007AC1",
+    "secondaryColor": "#EF3B24",
+    "logo": "⭐"
+  },
+  {
+    "id": "orl-current",
+    "abbr": "ORL",
+    "name": "Orlando Magic",
+    "era": "current",
+    "color": "#0077C0",
+    "secondaryColor": "#000000",
+    "logo": "🏀"
+  },
+  {
+    "id": "orl-alltime",
+    "abbr": "ORL",
+    "name": "Orlando Magic All-Time",
+    "era": "all-time",
+    "color": "#0077C0",
+    "secondaryColor": "#000000",
+    "logo": "⭐"
+  },
+  {
+    "id": "phi-current",
+    "abbr": "PHI",
+    "name": "Philadelphia 76ers",
+    "era": "current",
+    "color": "#006BB6",
+    "secondaryColor": "#ED174C",
+    "logo": "🏀"
+  },
+  {
+    "id": "phi-alltime",
+    "abbr": "PHI",
+    "name": "Philadelphia 76ers All-Time",
+    "era": "all-time",
+    "color": "#006BB6",
+    "secondaryColor": "#ED174C",
+    "logo": "⭐"
+  },
+  {
+    "id": "phx-current",
+    "abbr": "PHX",
+    "name": "Phoenix Suns",
+    "era": "current",
+    "color": "#1D1160",
+    "secondaryColor": "#E56020",
+    "logo": "🏀"
+  },
+  {
+    "id": "phx-alltime",
+    "abbr": "PHX",
+    "name": "Phoenix Suns All-Time",
+    "era": "all-time",
+    "color": "#1D1160",
+    "secondaryColor": "#E56020",
+    "logo": "⭐"
+  },
+  {
+    "id": "por-current",
+    "abbr": "POR",
+    "name": "Portland Trail Blazers",
+    "era": "current",
+    "color": "#E03A3E",
+    "secondaryColor": "#000000",
+    "logo": "🏀"
+  },
+  {
+    "id": "por-alltime",
+    "abbr": "POR",
+    "name": "Portland Trail Blazers All-Time",
+    "era": "all-time",
+    "color": "#E03A3E",
+    "secondaryColor": "#000000",
+    "logo": "⭐"
+  },
+  {
+    "id": "sac-current",
+    "abbr": "SAC",
+    "name": "Sacramento Kings",
+    "era": "current",
+    "color": "#5A2D81",
+    "secondaryColor": "#63727A",
+    "logo": "🏀"
+  },
+  {
+    "id": "sac-alltime",
+    "abbr": "SAC",
+    "name": "Sacramento Kings All-Time",
+    "era": "all-time",
+    "color": "#5A2D81",
+    "secondaryColor": "#63727A",
+    "logo": "⭐"
+  },
+  {
+    "id": "sas-current",
+    "abbr": "SAS",
+    "name": "San Antonio Spurs",
+    "era": "current",
+    "color": "#C4CED4",
+    "secondaryColor": "#000000",
+    "logo": "🏀"
+  },
+  {
+    "id": "sas-alltime",
+    "abbr": "SAS",
+    "name": "San Antonio Spurs All-Time",
+    "era": "all-time",
+    "color": "#C4CED4",
+    "secondaryColor": "#000000",
+    "logo": "⭐"
+  },
+  {
+    "id": "tor-current",
+    "abbr": "TOR",
+    "name": "Toronto Raptors",
+    "era": "current",
+    "color": "#CE1141",
+    "secondaryColor": "#000000",
+    "logo": "🏀"
+  },
+  {
+    "id": "tor-alltime",
+    "abbr": "TOR",
+    "name": "Toronto Raptors All-Time",
+    "era": "all-time",
+    "color": "#CE1141",
+    "secondaryColor": "#000000",
+    "logo": "⭐"
+  },
+  {
+    "id": "uta-current",
+    "abbr": "UTA",
+    "name": "Utah Jazz",
+    "era": "current",
+    "color": "#002B5C",
+    "secondaryColor": "#00471B",
+    "logo": "🏀"
+  },
+  {
+    "id": "uta-alltime",
+    "abbr": "UTA",
+    "name": "Utah Jazz All-Time",
+    "era": "all-time",
+    "color": "#002B5C",
+    "secondaryColor": "#00471B",
+    "logo": "⭐"
+  },
+  {
+    "id": "was-current",
+    "abbr": "WAS",
+    "name": "Washington Wizards",
+    "era": "current",
+    "color": "#002B5C",
+    "secondaryColor": "#E31837",
+    "logo": "🏀"
+  },
+  {
+    "id": "was-alltime",
+    "abbr": "WAS",
+    "name": "Washington Wizards All-Time",
+    "era": "all-time",
+    "color": "#002B5C",
+    "secondaryColor": "#E31837",
+    "logo": "⭐"
+  }
+]

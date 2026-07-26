@@ -2,7 +2,7 @@
   {
     "id": "atl-current",
     "abbr": "ATL",
-    "name": "Atlanta Hawks",
+    "name": "亚特兰大老鹰",
     "era": "current",
     "color": "#C8102E",
     "secondaryColor": "#FDB927",
@@ -11,7 +11,7 @@
   {
     "id": "atl-alltime",
     "abbr": "ATL",
-    "name": "Atlanta Hawks 传奇",
+    "name": "亚特兰大老鹰 传奇",
     "era": "all-time",
     "color": "#C8102E",
     "secondaryColor": "#FDB927",
@@ -20,7 +20,7 @@
   {
     "id": "bos-current",
     "abbr": "BOS",
-    "name": "Boston Celtics",
+    "name": "波士顿凯尔特人",
     "era": "current",
     "color": "#007A33",
     "secondaryColor": "#BA9653",
@@ -29,7 +29,7 @@
   {
     "id": "bos-alltime",
     "abbr": "BOS",
-    "name": "Boston Celtics 传奇",
+    "name": "波士顿凯尔特人 传奇",
     "era": "all-time",
     "color": "#007A33",
     "secondaryColor": "#BA9653",
@@ -38,7 +38,7 @@
   {
     "id": "bkn-current",
     "abbr": "BKN",
-    "name": "Brooklyn Nets",
+    "name": "布鲁克林篮网",
     "era": "current",
     "color": "#000000",
     "secondaryColor": "#FFFFFF",
@@ -47,7 +47,7 @@
   {
     "id": "bkn-alltime",
     "abbr": "BKN",
-    "name": "Brooklyn Nets 传奇",
+    "name": "布鲁克林篮网 传奇",
     "era": "all-time",
     "color": "#000000",
     "secondaryColor": "#FFFFFF",
@@ -56,7 +56,7 @@
   {
     "id": "cha-current",
     "abbr": "CHA",
-    "name": "Charlotte Hornets",
+    "name": "夏洛特黄蜂",
     "era": "current",
     "color": "#1D1160",
     "secondaryColor": "#00788C",
@@ -65,7 +65,7 @@
   {
     "id": "cha-alltime",
     "abbr": "CHA",
-    "name": "Charlotte Hornets 传奇",
+    "name": "夏洛特黄蜂 传奇",
     "era": "all-time",
     "color": "#1D1160",
     "secondaryColor": "#00788C",
@@ -74,7 +74,7 @@
   {
     "id": "chi-current",
     "abbr": "CHI",
-    "name": "Chicago Bulls",
+    "name": "芝加哥公牛",
     "era": "current",
     "color": "#CE1141",
     "secondaryColor": "#000000",
@@ -83,7 +83,7 @@
   {
     "id": "chi-alltime",
     "abbr": "CHI",
-    "name": "Chicago Bulls 传奇",
+    "name": "芝加哥公牛 传奇",
     "era": "all-time",
     "color": "#CE1141",
     "secondaryColor": "#000000",
@@ -92,7 +92,7 @@
   {
     "id": "cle-current",
     "abbr": "CLE",
-    "name": "Cleveland Cavaliers",
+    "name": "克利夫兰骑士",
     "era": "current",
     "color": "#860038",
     "secondaryColor": "#FDBB30",
@@ -101,7 +101,7 @@
   {
     "id": "cle-alltime",
     "abbr": "CLE",
-    "name": "Cleveland Cavaliers 传奇",
+    "name": "克利夫兰骑士 传奇",
     "era": "all-time",
     "color": "#860038",
     "secondaryColor": "#FDBB30",
@@ -110,7 +110,7 @@
   {
     "id": "dal-current",
     "abbr": "DAL",
-    "name": "Dallas Mavericks",
+    "name": "达拉斯独行侠",
     "era": "current",
     "color": "#00538C",
     "secondaryColor": "#002B5E",
@@ -119,7 +119,7 @@
   {
     "id": "dal-alltime",
     "abbr": "DAL",
-    "name": "Dallas Mavericks 传奇",
+    "name": "达拉斯独行侠 传奇",
     "era": "all-time",
     "color": "#00538C",
     "secondaryColor": "#002B5E",
@@ -128,7 +128,7 @@
   {
     "id": "den-current",
     "abbr": "DEN",
-    "name": "Denver Nuggets",
+    "name": "丹佛掘金",
     "era": "current",
     "color": "#0E2240",
     "secondaryColor": "#FEC524",
@@ -137,7 +137,7 @@
   {
     "id": "den-alltime",
     "abbr": "DEN",
-    "name": "Denver Nuggets 传奇",
+    "name": "丹佛掘金 传奇",
     "era": "all-time",
     "color": "#0E2240",
     "secondaryColor": "#FEC524",
@@ -146,7 +146,7 @@
   {
     "id": "det-current",
     "abbr": "DET",
-    "name": "Detroit Pistons",
+    "name": "底特律活塞",
     "era": "current",
     "color": "#C8102E",
     "secondaryColor": "#006BB6",
@@ -155,7 +155,7 @@
   {
     "id": "det-alltime",
     "abbr": "DET",
-    "name": "Detroit Pistons 传奇",
+    "name": "底特律活塞 传奇",
     "era": "all-time",
     "color": "#C8102E",
     "secondaryColor": "#006BB6",
@@ -164,7 +164,7 @@
   {
     "id": "gsw-current",
     "abbr": "GSW",
-    "name": "Golden State Warriors",
+    "name": "金州勇士",
     "era": "current",
     "color": "#1D428A",
     "secondaryColor": "#FFC72C",
@@ -173,7 +173,7 @@
   {
     "id": "gsw-alltime",
     "abbr": "GSW",
-    "name": "Golden State Warriors 传奇",
+    "name": "金州勇士 传奇",
     "era": "all-time",
     "color": "#1D428A",
     "secondaryColor": "#FFC72C",
@@ -182,7 +182,7 @@
   {
     "id": "hou-current",
     "abbr": "HOU",
-    "name": "Houston Rockets",
+    "name": "休斯顿火箭",
     "era": "current",
     "color": "#CE1141",
     "secondaryColor": "#C4CED4",
@@ -191,7 +191,7 @@
   {
     "id": "hou-alltime",
     "abbr": "HOU",
-    "name": "Houston Rockets 传奇",
+    "name": "休斯顿火箭 传奇",
     "era": "all-time",
     "color": "#CE1141",
     "secondaryColor": "#C4CED4",
@@ -200,7 +200,7 @@
   {
     "id": "ind-current",
     "abbr": "IND",
-    "name": "Indiana Pacers",
+    "name": "印第安纳步行者",
     "era": "current",
     "color": "#002D62",
     "secondaryColor": "#FDBB30",
@@ -209,7 +209,7 @@
   {
     "id": "ind-alltime",
     "abbr": "IND",
-    "name": "Indiana Pacers 传奇",
+    "name": "印第安纳步行者 传奇",
     "era": "all-time",
     "color": "#002D62",
     "secondaryColor": "#FDBB30",
@@ -218,7 +218,7 @@
   {
     "id": "lac-current",
     "abbr": "LAC",
-    "name": "LA Clippers",
+    "name": "洛杉矶快船",
     "era": "current",
     "color": "#C8102E",
     "secondaryColor": "#1D428A",
@@ -227,7 +227,7 @@
   {
     "id": "lac-alltime",
     "abbr": "LAC",
-    "name": "LA Clippers 传奇",
+    "name": "洛杉矶快船 传奇",
     "era": "all-time",
     "color": "#C8102E",
     "secondaryColor": "#1D428A",
@@ -236,7 +236,7 @@
   {
     "id": "lal-current",
     "abbr": "LAL",
-    "name": "Los Angeles Lakers",
+    "name": "洛杉矶湖人",
     "era": "current",
     "color": "#552583",
     "secondaryColor": "#FDB927",
@@ -245,7 +245,7 @@
   {
     "id": "lal-alltime",
     "abbr": "LAL",
-    "name": "Los Angeles Lakers 传奇",
+    "name": "洛杉矶湖人 传奇",
     "era": "all-time",
     "color": "#552583",
     "secondaryColor": "#FDB927",
@@ -254,7 +254,7 @@
   {
     "id": "mem-current",
     "abbr": "MEM",
-    "name": "Memphis Grizzlies",
+    "name": "孟菲斯灰熊",
     "era": "current",
     "color": "#5D76A9",
     "secondaryColor": "#12173F",
@@ -263,7 +263,7 @@
   {
     "id": "mem-alltime",
     "abbr": "MEM",
-    "name": "Memphis Grizzlies 传奇",
+    "name": "孟菲斯灰熊 传奇",
     "era": "all-time",
     "color": "#5D76A9",
     "secondaryColor": "#12173F",
@@ -272,7 +272,7 @@
   {
     "id": "mia-current",
     "abbr": "MIA",
-    "name": "Miami Heat",
+    "name": "迈阿密热火",
     "era": "current",
     "color": "#98002E",
     "secondaryColor": "#F9A01B",
@@ -281,7 +281,7 @@
   {
     "id": "mia-alltime",
     "abbr": "MIA",
-    "name": "Miami Heat 传奇",
+    "name": "迈阿密热火 传奇",
     "era": "all-time",
     "color": "#98002E",
     "secondaryColor": "#F9A01B",
@@ -290,7 +290,7 @@
   {
     "id": "mil-current",
     "abbr": "MIL",
-    "name": "Milwaukee Bucks",
+    "name": "密尔沃基雄鹿",
     "era": "current",
     "color": "#00471B",
     "secondaryColor": "#EEE1C6",
@@ -299,7 +299,7 @@
   {
     "id": "mil-alltime",
     "abbr": "MIL",
-    "name": "Milwaukee Bucks 传奇",
+    "name": "密尔沃基雄鹿 传奇",
     "era": "all-time",
     "color": "#00471B",
     "secondaryColor": "#EEE1C6",
@@ -308,7 +308,7 @@
   {
     "id": "min-current",
     "abbr": "MIN",
-    "name": "Minnesota Timberwolves",
+    "name": "明尼苏达森林狼",
     "era": "current",
     "color": "#0C2340",
     "secondaryColor": "#78BE20",
@@ -317,7 +317,7 @@
   {
     "id": "min-alltime",
     "abbr": "MIN",
-    "name": "Minnesota Timberwolves 传奇",
+    "name": "明尼苏达森林狼 传奇",
     "era": "all-time",
     "color": "#0C2340",
     "secondaryColor": "#78BE20",
@@ -326,7 +326,7 @@
   {
     "id": "nop-current",
     "abbr": "NOP",
-    "name": "New Orleans Pelicans",
+    "name": "新奥尔良鹈鹕",
     "era": "current",
     "color": "#0C2340",
     "secondaryColor": "#85714D",
@@ -335,7 +335,7 @@
   {
     "id": "nop-alltime",
     "abbr": "NOP",
-    "name": "New Orleans Pelicans 传奇",
+    "name": "新奥尔良鹈鹕 传奇",
     "era": "all-time",
     "color": "#0C2340",
     "secondaryColor": "#85714D",
@@ -344,7 +344,7 @@
   {
     "id": "nyk-current",
     "abbr": "NYK",
-    "name": "New York Knicks",
+    "name": "纽约尼克斯",
     "era": "current",
     "color": "#F58426",
     "secondaryColor": "#006BB6",
@@ -353,7 +353,7 @@
   {
     "id": "nyk-alltime",
     "abbr": "NYK",
-    "name": "New York Knicks 传奇",
+    "name": "纽约尼克斯 传奇",
     "era": "all-time",
     "color": "#F58426",
     "secondaryColor": "#006BB6",
@@ -362,7 +362,7 @@
   {
     "id": "okc-current",
     "abbr": "OKC",
-    "name": "Oklahoma City Thunder",
+    "name": "俄克拉荷马城雷霆",
     "era": "current",
     "color": "#007AC1",
     "secondaryColor": "#EF3B24",
@@ -371,7 +371,7 @@
   {
     "id": "okc-alltime",
     "abbr": "OKC",
-    "name": "Oklahoma City Thunder 传奇",
+    "name": "俄克拉荷马城雷霆 传奇",
     "era": "all-time",
     "color": "#007AC1",
     "secondaryColor": "#EF3B24",
@@ -380,7 +380,7 @@
   {
     "id": "orl-current",
     "abbr": "ORL",
-    "name": "Orlando Magic",
+    "name": "奥兰多魔术",
     "era": "current",
     "color": "#0077C0",
     "secondaryColor": "#000000",
@@ -389,7 +389,7 @@
   {
     "id": "orl-alltime",
     "abbr": "ORL",
-    "name": "Orlando Magic 传奇",
+    "name": "奥兰多魔术 传奇",
     "era": "all-time",
     "color": "#0077C0",
     "secondaryColor": "#000000",
@@ -398,7 +398,7 @@
   {
     "id": "phi-current",
     "abbr": "PHI",
-    "name": "Philadelphia 76ers",
+    "name": "费城76人",
     "era": "current",
     "color": "#006BB6",
     "secondaryColor": "#ED174C",
@@ -407,7 +407,7 @@
   {
     "id": "phi-alltime",
     "abbr": "PHI",
-    "name": "Philadelphia 76ers 传奇",
+    "name": "费城76人 传奇",
     "era": "all-time",
     "color": "#006BB6",
     "secondaryColor": "#ED174C",
@@ -416,7 +416,7 @@
   {
     "id": "phx-current",
     "abbr": "PHX",
-    "name": "Phoenix Suns",
+    "name": "菲尼克斯太阳",
     "era": "current",
     "color": "#1D1160",
     "secondaryColor": "#E56020",
@@ -425,7 +425,7 @@
   {
     "id": "phx-alltime",
     "abbr": "PHX",
-    "name": "Phoenix Suns 传奇",
+    "name": "菲尼克斯太阳 传奇",
     "era": "all-time",
     "color": "#1D1160",
     "secondaryColor": "#E56020",
@@ -434,7 +434,7 @@
   {
     "id": "por-current",
     "abbr": "POR",
-    "name": "Portland Trail Blazers",
+    "name": "波特兰开拓者",
     "era": "current",
     "color": "#E03A3E",
     "secondaryColor": "#000000",
@@ -443,7 +443,7 @@
   {
     "id": "por-alltime",
     "abbr": "POR",
-    "name": "Portland Trail Blazers 传奇",
+    "name": "波特兰开拓者 传奇",
     "era": "all-time",
     "color": "#E03A3E",
     "secondaryColor": "#000000",
@@ -452,7 +452,7 @@
   {
     "id": "sac-current",
     "abbr": "SAC",
-    "name": "Sacramento Kings",
+    "name": "萨克拉门托国王",
     "era": "current",
     "color": "#5A2D81",
     "secondaryColor": "#63727A",
@@ -461,7 +461,7 @@
   {
     "id": "sac-alltime",
     "abbr": "SAC",
-    "name": "Sacramento Kings 传奇",
+    "name": "萨克拉门托国王 传奇",
     "era": "all-time",
     "color": "#5A2D81",
     "secondaryColor": "#63727A",
@@ -470,7 +470,7 @@
   {
     "id": "sas-current",
     "abbr": "SAS",
-    "name": "San Antonio Spurs",
+    "name": "圣安东尼奥马刺",
     "era": "current",
     "color": "#C4CED4",
     "secondaryColor": "#000000",
@@ -479,7 +479,7 @@
   {
     "id": "sas-alltime",
     "abbr": "SAS",
-    "name": "San Antonio Spurs 传奇",
+    "name": "圣安东尼奥马刺 传奇",
     "era": "all-time",
     "color": "#C4CED4",
     "secondaryColor": "#000000",
@@ -488,7 +488,7 @@
   {
     "id": "tor-current",
     "abbr": "TOR",
-    "name": "Toronto Raptors",
+    "name": "多伦多猛龙",
     "era": "current",
     "color": "#CE1141",
     "secondaryColor": "#000000",
@@ -497,7 +497,7 @@
   {
     "id": "tor-alltime",
     "abbr": "TOR",
-    "name": "Toronto Raptors 传奇",
+    "name": "多伦多猛龙 传奇",
     "era": "all-time",
     "color": "#CE1141",
     "secondaryColor": "#000000",
@@ -506,7 +506,7 @@
   {
     "id": "uta-current",
     "abbr": "UTA",
-    "name": "Utah Jazz",
+    "name": "犹他爵士",
     "era": "current",
     "color": "#002B5C",
     "secondaryColor": "#00471B",
@@ -515,7 +515,7 @@
   {
     "id": "uta-alltime",
     "abbr": "UTA",
-    "name": "Utah Jazz 传奇",
+    "name": "犹他爵士 传奇",
     "era": "all-time",
     "color": "#002B5C",
     "secondaryColor": "#00471B",
@@ -524,7 +524,7 @@
   {
     "id": "was-current",
     "abbr": "WAS",
-    "name": "Washington Wizards",
+    "name": "华盛顿奇才",
     "era": "current",
     "color": "#002B5C",
     "secondaryColor": "#E31837",
@@ -533,7 +533,7 @@
   {
     "id": "was-alltime",
     "abbr": "WAS",
-    "name": "Washington Wizards 传奇",
+    "name": "华盛顿奇才 传奇",
     "era": "all-time",
     "color": "#002B5C",
     "secondaryColor": "#E31837",
